@@ -1,24 +1,14 @@
 {
-  "name": "flyweight-pattern-text-editor",
+  "name": "flyweight-pattern-demo",
   "version": "1.0.0",
-  "description": "Interactive Flyweight Design Pattern using Text Editor example",
+  "description": "Flyweight Design Pattern Implementation",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
-    "dev": "ts-node main.ts",
+    "dev": "ts-node src/main.ts",
     "clean": "rm -rf dist"
   },
-  "keywords": [
-    "flyweight",
-    "design-pattern",
-    "typescript",
-    "text-editor",
-    "interactive",
-    "console"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   },
